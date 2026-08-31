@@ -1,0 +1,8 @@
+﻿feature,stm32f103c8t6,raspberry_pi_4,jetson_orin_nano
+processor_architecture,ARM Cortex-M3 (32-bit),"Broadcom BCM2711, Cortex-A72 (64-bit)",ARM Cortex-A78AE (64-bit)
+clock_frequency,72 MHz,1.5 GHz (Quad-Core),1.98 GHz (6-Core)
+memory,20 KB SRAM (on-chip),4 GB LPDDR4 (external),8 GB LPDDR5 (external)
+fpu,None (software-emulated),NEON SIMD instructions,Independent FPU + GPU acceleration
+operating_system,FreeRTOS,Debian Linux,Ubuntu/JetPack
+compiler_execution,"GCC 10.3, -O3; fixed 72 MHz","GCC 10.3, -O3; single-threaded","GCC 10.3, -O3; single-threaded"
+power_management,No OS governor; interrupt-driven idle,Linux ondemand; Wi-Fi/Bluetooth off,nvpmodel 10 W; schedutil governor

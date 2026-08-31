@@ -1,0 +1,7 @@
+﻿scenario,component,trials,mean_ms,sd_ms,max_ms,p99_ms,p99_9_ms
+Open space,Total,1000,254.1,50.8,382.4,365.2,378.1
+Open space,Tree expansion,1000,216.5,44.7,340.2,320.6,335.4
+Moderate clutter,Total,1000,765.2,128.4,1085.6,1042.3,1076.5
+Moderate clutter,Tree expansion,1000,682.1,111.5,995.3,954.8,988.2
+Narrow passage,Total,1000,962.8,216.3,1488.5,1410.2,1472.6
+Narrow passage,Tree expansion,1000,858.4,192.1,1375.4,1315.6,1362.8

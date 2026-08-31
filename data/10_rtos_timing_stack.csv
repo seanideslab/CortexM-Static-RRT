@@ -1,0 +1,4 @@
+﻿task,priority,nominal_or_test_timing,measured_mean,max_jitter_us,allocated_stack_bytes,notes
+Attitude Control (PID),4,2.50 ms nominal (400 Hz),2.501 ms,12,256,Shallow control path
+EKF State Estimation,3,10.00 ms nominal (100 Hz),10.05 ms,140,512,Static matrix storage
+RRT Path Planning,2,"Event-triggered; 3,000-iteration and 1.5 s guards",N/A,,1024,No recursion

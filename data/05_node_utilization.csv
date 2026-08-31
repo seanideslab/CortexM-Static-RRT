@@ -1,0 +1,4 @@
+﻿scenario,planning_success_percent,avg_nodes_used,sd_nodes_used,max_nodes_used,saturated,avg_path_length_m,sd_path_length_m,path_optimization_ratio
+Open space,100,412,85,650,False,42.5,1.2,0.98
+Moderate clutter,98,985,21,1420,False,58.3,3.4,0.85
+Narrow passage,92,1350,140,1457,True,71.2,5.1,0.76

@@ -1,0 +1,4 @@
+﻿platform,board_weight_g,cooling_requirement,tdp_w,physical_volume_cm3
+STM32F103,8,No heatsink required,<0.2,12
+Raspberry Pi 4,46,Required (passive / active),~7,65
+Jetson Orin Nano,140,Required (active fan),~15,250

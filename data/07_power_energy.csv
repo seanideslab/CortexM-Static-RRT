@@ -1,0 +1,4 @@
+﻿platform,idle_power_w,active_power_w,planning_latency_ms,energy_per_plan_j,normalized_energy_jetson_1
+STM32F103 (MCU),0.085,0.099,765.2,0.076,0.27
+Raspberry Pi 4 (SBC),2.8,4.5,48.2,0.216,0.77
+Jetson Orin Nano (SBC),4.2,7.8,35.5,0.281,1.0

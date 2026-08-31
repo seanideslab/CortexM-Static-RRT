@@ -1,0 +1,8 @@
+﻿stage,open_mean_ms,open_sd_ms,moderate_mean_ms,moderate_sd_ms,narrow_mean_ms,narrow_sd_ms,profiling_trials
+Initialization,1.2,0.1,1.2,0.1,1.2,0.1,50
+RRT tree expansion,215,45,680,110,855,190,50
+Random sampling,15,3,45,8,58,12,50
+Nearest-neighbor search,140,30,420,80,510,120,50
+Collision checking,60,15,215,50,287,70,50
+Path pruning,12,4,45,12,62,18,50
+Bézier smoothing,25,2,38,5,41,6,50

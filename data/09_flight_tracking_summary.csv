@@ -1,0 +1,5 @@
+﻿metric,planned,actual_flight,deviation_or_error,flight_repetitions,commanded_altitude_m,commanded_speed_mps
+Path Length,583.0 m,591.2 m,+1.4%,15,1.5,0.5
+Flight Time,60.5 s,64.8 s,+7.1%,15,1.5,0.5
+Average Cross-Track Error,N/A,1.25 m,SD = 0.2 m; RTK-GNSS/EKF position,15,1.5,0.5
+Maximum Cross-Track Error,N/A,2.10 m,Occurs at sharper turns (overshoot),15,1.5,0.5

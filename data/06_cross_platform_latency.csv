@@ -1,0 +1,4 @@
+﻿platform,cpu_clock,planning_time_ms,speedup_vs_stm32
+STM32F103,72 MHz,765.2,1.0
+Raspberry Pi 4,1.5 GHz,48.2,15.9
+Jetson Orin Nano,1.98 GHz,35.5,21.6

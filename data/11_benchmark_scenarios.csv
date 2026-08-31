@@ -1,0 +1,4 @@
+﻿scenario,map_width_m,map_height_m,map_area_m2,obstacle_count,occupancy_percent,occupancy_relation,description
+Open space,100,100,10000,10,5,<,Small geometric obstacles; weakly constrained baseline
+Moderate clutter,100,100,10000,40,20,approximately,Mixed-size geometric obstacles; semi-structured environment
+Narrow passage,100,100,10000,25,35,approximately,Larger obstacles forming narrow corridors near safety-radius limit

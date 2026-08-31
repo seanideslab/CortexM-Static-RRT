@@ -1,0 +1,9 @@
+﻿parameter,value,unit,description
+N_max,1457,nodes,Maximum RRT nodes
+C_iter,18,CPU cycles/node,Measured per-node linear-scan loop cost using DWT_CYCCNT
+C_0,12,CPU cycles,Loop initialization overhead
+C_NNS_max,26238,CPU cycles,C0 + Nmax × Citer
+core_clock,72,MHz,STM32F103 Cortex-M3 clock
+max_scan_time,0.3644,ms,"26,238 cycles at 72 MHz"
+max_rrt_iterations,3000,iterations,Software guard
+wall_clock_timeout,1.5,s,Software guard
