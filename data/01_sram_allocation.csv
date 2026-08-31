@@ -1,0 +1,9 @@
+region_id,region,description,size_bytes,size_kib,share_percent,notes
+1,RRT node pool,"Static array of sampled states and parent links (1,457 nodes × 12 B)",17484,17.07,85.37,Contiguous compile-time array; no node heap
+2,Fixed buffers / static workspaces,"Obstacle representation, path backtracking, Bézier workspace, and statically provisioned EKF scratch workspace",920,0.9,4.49,Large EKF matrices are not placed on EKF task stack
+3,RRT planner task stack,FreeRTOS stack for event-triggered planner,1024,1.0,5.0,Static task stack
+4,EKF estimation task stack,FreeRTOS stack after moving large matrix workspaces to static storage,512,0.5,2.5,Static task stack
+5,Attitude-control task stack,FreeRTOS stack for the 400 Hz control task,256,0.25,1.25,Static task stack
+6,Idle/system/ISR reserve,"FreeRTOS idle task, small system globals, and ISR/context-save reserve",284,0.28,1.39,Residual statically budgeted SRAM
+7,General-purpose heap,C dynamic allocation (malloc/free),0,0.0,0.0,Disabled by design
+,Total,,20480,20.0,100.0,Entire SRAM budget accounted for at design time
