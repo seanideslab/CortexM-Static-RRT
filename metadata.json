@@ -1,0 +1,13 @@
+{
+  "title": "Deterministic Static-Memory RRT Planning on Cortex-M — Supporting Data",
+  "dataset_type": "processed manuscript-supporting data",
+  "manuscript_title": "Deterministic Static-Memory RRT Planning on Cortex-M: Bounded Memory, Timing Predictability, and Energy Trade-offs for SWaP-Constrained UAVs",
+  "author": "S. E. Tsai",
+  "created": "2026-08-30",
+  "repository_url": "TO_BE_ADDED",
+  "license": "TO_BE_SELECTED_BY_AUTHOR",
+  "notes": [
+    "Values are transcribed from the manuscript and supporting measurements.",
+    "No synthetic per-trial raw observations were generated."
+  ]
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the associated manuscript and this repository."
+title: "Deterministic Static-Memory RRT Planning on Cortex-M — Supporting Data"
+type: dataset
+authors:
+  - family-names: "Tsai"
+    given-names: "S. E."
+version: "1.0"
+date-released: "2026-08-30"
+repository-code: "TO_BE_ADDED"
